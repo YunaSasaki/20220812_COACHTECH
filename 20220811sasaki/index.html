@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+  <html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- フォーム -->
+    <div class="form">
+      <form name="contact" action="" method="post" >
+        <table>
+          <tr>
+            <th>
+              <span class="form-label-required">必須</span><span class="form-label-txt">会社名</span>
+            </th>
+            <td>
+              <input type="text" name="company" placeholder="例）株式会社estra">
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <span class="form-label-required">必須</span><span class="form-label-txt">氏名</span>
+            </th>
+            <td>
+              <input type="text" name="name" placeholder="例）山田太郎">
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <span class="form-label-required">必須</span><span class="form-label-txt">電話番号</span>
+            </th>
+            <td>
+              <input type="tel" name="tel" placeholder="例）090-1234-5678">
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <span class="form-label-required">必須</span><span class="form-label-txt">メールアドレス</span>
+            </th>
+            <td>
+              <input type="email" name="email" placeholder="例）test@example.com">
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <span class="form-label-required">必須</span><span class="form-label-txt">お問い合わせ内容</span>
+            </th>
+            <td>
+              <textarea name="textarea"></textarea>
+            </td>
+          </tr>
+        </table>
+        <input type="submit" class="form-btn" value="送信する">
+      </form>
+    </div>
+  </body>
+</html>

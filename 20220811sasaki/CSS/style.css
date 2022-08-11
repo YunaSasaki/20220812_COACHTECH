@@ -1,0 +1,73 @@
+* {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* フォーム */
+.form {
+  width: 60%;
+  margin: 20px auto;
+}
+.form table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.form tr {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.form th,
+.form td {
+  padding: 24px 10px;
+}
+.form th {
+  text-align: left;
+  font-weight: bold;
+  vertical-align: middle
+}
+.form-label-required {
+  border-radius: 6px;
+  margin-right: 8px;
+  padding: 8px 0;
+  width: 48px;
+  display: inline-block;
+  text-align: center;
+  background: #5bc8ac;
+  color: #fff;
+  font-size: 14px;
+}
+.form-label-txt {
+  display: inline-block;
+  font-size: 16px;
+}
+.form td > input {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 0 10px;
+  width: 100%;
+  height: 48px;
+  background: #eaedf2
+}
+.form td > textarea {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 0 10px;
+  width: 100%;
+  height: 200px;
+  background: #eaedf2
+}
+.form-btn {
+  border-radius: 6px;
+  margin: 32px auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 280px;
+  display: block;
+  background: #5bc8ac;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
